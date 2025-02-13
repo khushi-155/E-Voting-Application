@@ -69,7 +69,7 @@ Election APIs
 - POST /api/votes - Cast a vote
 - GET /api/votes - Get all votes
 
- 9Future Enhancements
+9. Future Enhancements
 - Add authentication and user roles.
 - Implement real-time election monitoring.
 - Develop a user-friendly frontend UI.
