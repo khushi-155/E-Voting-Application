@@ -13,7 +13,6 @@ The E-Voting System is designed to facilitate online elections efficiently. User
 3. Tech Stack
 - **Backend:** Spring Boot, Hibernate
 - **Database:** MySQL
-- **Frontend:** (To be decided – could be React, Angular, or Thymeleaf)
 - **Tools:** Maven, Postman (for API testing)
 
 4. Installation & Setup
@@ -21,16 +20,12 @@ The E-Voting System is designed to facilitate online elections efficiently. User
 - Java 17+
 - MySQL Database
 - Maven
-- IDE (IntelliJ IDEA, Eclipse, or VS Code)
+- IDE - Eclipse
 
 5. Steps to Setup
-1. Clone the Repository
-   
-   git clone https://github.com/your-repository/e-voting-system.git
-   cd e-voting-system
    
 
-2. Configure MySQL Database
+1. Configure MySQL Database
    - Create a new database in MySQL:
      
      CREATE DATABASE evoting_system;
@@ -43,13 +38,13 @@ The E-Voting System is designed to facilitate online elections efficiently. User
      spring.jpa.hibernate.ddl-auto=update
     
 
-3. Build and Run the Application
+2. Build and Run the Application
    
    mvn clean install
    mvn spring-boot:run
    
 
-4. Access the Application
+3. Access the Application
    - API endpoints will be available at http://localhost:8080
 
 6. API Endpoints
